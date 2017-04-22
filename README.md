@@ -1,13 +1,54 @@
 # Java_Experiments
 
-Java Experiments
-  ┣━第三周1
-  ┣━第三周2
-  ┣━第四周1
-  ┣━第四周2
-  ┣━实验五
-  ┣━实验六
-  ┣━实验七
-  ┗━实验八
+## 第三周1
+- Hello.java
+- HelloApplet.java
+- Say_Hello_to_You.java
+
+## 第三周2
+- Exercise2_5.java
+- Exercise2_6.java
+- Exercise2_7.java
+- GreekAlphabet.java
+- Temperature_Converter.java
+  
+## 第四周1
+- Exercise2_9.java
+- Exercise2_12.java
+- Exercise2_15.java
+- Exercise2_18.java
+- Exercise2_19.java
+- Exercise2_20.java
+
+## 第四周2
+- Calculate_X.java
+- Hex_to_Dec.java
+- Prime_Judge.java
+
+## 实验五
+- Exercise4_15
+  - Address.java
+  - Exercise4_15.java
+- Exercise4_18
+  - Exercise4_18.java
+  - Test.java
+- SchoolInfo
+  - Class.java
+  - School.java
+  - Student.java
+  - Test.java
+- Exercise4_16.java
+- Exercise4_17.java
+- Exercise4_19.java
+
+## 实验六
+- FormatDateOutput.java
+- RandomIntOutputMonth.java
+- Search.java
+- Sort.java
+
+## 实验七
+
+## 实验八
 
 Copyright &copy; 2017 Benjamin
