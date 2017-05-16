@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="420146ec-d54c-4d62-8f05-c60bfd8a8631" name="Default" comment="Version 7.6.1&#10;Exp7 Completed!">
+    <list default="true" id="420146ec-d54c-4d62-8f05-c60bfd8a8631" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -903,7 +904,7 @@
       <updated>1492827794924</updated>
       <workItem from="1492827796586" duration="933000" />
       <workItem from="1494835689739" duration="792000" />
-      <workItem from="1494851244480" duration="21695000" />
+      <workItem from="1494851244480" duration="21863000" />
     </task>
     <task id="LOCAL-00001" summary="Version 7.1">
       <created>1492828623638</created>
@@ -933,11 +934,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494922894081</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 7.6.1&#10;Exp7 Completed!">
+      <created>1494923097214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1494923097214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23420000" />
+    <option name="totallyTimeSpent" value="23588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1075" height="1050" extended-state="0" />
