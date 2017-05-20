@@ -63,8 +63,6 @@ class NotePad2 extends JFrame {
         openMenuItem.setText("Open...");
         saveMenuItem.setText("Save...");
         saveAsMenuItem.setText("Save As...");
-        pageSetupMenuItem.setText("Page Setup");
-        printMenuItem.setText("Print");
         exitMenuItem.setText("Exit");
         fileMenu.add(newMenuItem);
         fileMenu.add(openMenuItem);
