@@ -71,9 +71,6 @@ class NotePad2 extends JFrame {
         fileMenu.add(saveMenuItem);
         fileMenu.add(saveAsMenuItem);
         fileMenu.addSeparator();
-        fileMenu.add(pageSetupMenuItem);
-        fileMenu.add(printMenuItem);
-        fileMenu.addSeparator();
         fileMenu.add(exitMenuItem);
 
 // 添加子菜单项到风格菜单
@@ -95,8 +92,6 @@ class NotePad2 extends JFrame {
         openMenuItem.addActionListener(new openMenuItem_actionAdapter(this));
         saveMenuItem.addActionListener(new saveMenuItem_actionAdapter(this));
         saveAsMenuItem.addActionListener(new saveAsMenuItem_actionAdapter(this));
-        pageSetupMenuItem.addActionListener(new pageSetupMenuItem_actionAdapter(this));
-        printMenuItem.addActionListener(new printMenuItem_actionAdapter(this));
         exitMenuItem.addActionListener(new exitMenuItem_actionAdapter(this));
 
 // 定义编辑菜单下的事件监听
@@ -238,16 +233,6 @@ class NotePad2 extends JFrame {
 
     }
 
-    // 页面设置事件
-    public void pageSetupMenuItemActionPerformed(ActionEvent evt) {
-        JOptionPane.showMessageDialog(null, "此功能正在开发中...");
-    }
-
-    // 打印事件
-    public void printMenuItemActionPerformed(ActionEvent evt) {
-        JOptionPane.showMessageDialog(null, "打印中...");
-    }
-
     // 剪贴事件
     public void cutMenuItemActionPerformed(ActionEvent evt) {
         String tempText = content.getSelectedText();
@@ -336,32 +321,6 @@ class saveAsMenuItem_actionAdapter implements ActionListener {
 
     public void actionPerformed(ActionEvent evt) {
         adaptee.saveAsMenuItemActionPerformed(evt);
-    }
-}
-
-// 定义页面设置事件类
-class pageSetupMenuItem_actionAdapter implements ActionListener {
-    private final NotePad2 adaptee;
-
-    pageSetupMenuItem_actionAdapter(NotePad2 adaptee) {
-        this.adaptee = adaptee;
-    }
-
-    public void actionPerformed(ActionEvent evt) {
-        adaptee.pageSetupMenuItemActionPerformed(evt);
-    }
-}
-
-// 定义打印事件类
-class printMenuItem_actionAdapter implements ActionListener {
-    private final NotePad2 adaptee;
-
-    printMenuItem_actionAdapter(NotePad2 adaptee) {
-        this.adaptee = adaptee;
-    }
-
-    public void actionPerformed(ActionEvent evt) {
-        adaptee.printMenuItemActionPerformed(evt);
     }
 }
 
