@@ -10,6 +10,6 @@ public class Exercise4_18 {
         System.out.println("Accessing public variable: testPublic = "+test.testPublic);
         System.out.println("Accessing protected variable: testProtected = "+test.testProtected);
         //System.out.println("Accessing private variable: testPrivate = " + test.testPrivate);
-        System.out.println("Failed while accessing private variable: testPrivate.");
+        System.out.println("Failed while accessing private variable: testPrivate.");        //上一句编译无法通过，只能用此种方式来表示无法访问
     }
 }

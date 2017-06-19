@@ -6,7 +6,7 @@ package SchoolInfo;
  */
 class Test {
     static void testingSystem(Class a, Class b){
-        System.out.println("Entering testing sequence...");
+        System.out.println("Entering testing sequence...");     //进入测试类
         a.addClassInfo(1,"SnowFly","ClassMasterTest1");
         b.addClassInfo(2,"SnowFlyLi","ClassMasterTest2");
 
@@ -15,6 +15,6 @@ class Test {
 
         a.getClassInfo();
         b.getClassInfo();
-        System.out.println("\nTesting sequence completed...");
+        System.out.println("\nTesting sequence completed...");      //退出测试类
     }
 }

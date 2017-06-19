@@ -5,7 +5,7 @@ public class ExitConfirm extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
-    protected boolean exitConfirmed = false;
+    private boolean exitConfirmed = false;
 
     public ExitConfirm() {
         setContentPane(contentPane);

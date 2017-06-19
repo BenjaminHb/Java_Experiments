@@ -62,7 +62,7 @@ class Class {
             classPeopleNum++;
             System.out.println("是否继续输入下一个学生信息？（1为是，0为否）");
             inputStatus = input.nextInt();
-            while (inputStatus!=1&&inputStatus!=0){
+            while (inputStatus!=1&&inputStatus!=0){     //输入错误，重新输入
                 System.out.println("输入错误，请重新输入！");
                 inputStatus = input.nextInt();
             }

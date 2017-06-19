@@ -7,10 +7,10 @@ import java.util.Scanner;
  * Copyright © benjaminzhang 2017.
  */
 
-abstract class Shape {
+abstract class Shape {      //定义一个抽象类
     double area;
 
-    abstract void computeArea();
+    abstract void computeArea();        //子类定义此方法
 }
 
 class Triangle extends Shape {
@@ -69,9 +69,9 @@ public class Exercise5_8 {
         System.out.println("Please input circle's radius:");
         Circle cir = new Circle(input.nextDouble());
         System.out.println("Ciecle's radius: " + cir.radius);
-        tri.computeArea();
-        squ.computeArea();
-        cir.computeArea();
+        tri.computeArea();      //调用类的计算面积方法
+        squ.computeArea();      //调用类的计算面积方法
+        cir.computeArea();      //调用类的计算面积方法
         System.out.println("\nTriangle's area is " + tri.area);
         System.out.println("Square's area is " + squ.area);
         System.out.println("Circle's area is " + cir.area);

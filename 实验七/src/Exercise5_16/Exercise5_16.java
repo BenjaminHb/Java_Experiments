@@ -7,14 +7,14 @@ import java.util.Scanner;
  * Copyright © benjaminzhang 2017.
  */
 
-abstract class Shape {
+abstract class Shape {      //定义一个抽象类
     double area, perimeter;
 
-    abstract void computeArea();
+    abstract void computeArea();        //子类定义此方法
 
-    abstract void computePerimeter();
+    abstract void computePerimeter();       //子类定义此方法
 
-    void display() {
+    void display() {        //子类覆盖此方法
         System.out.println("Area is " + area);
         System.out.println("Perimeter is " + perimeter);
     }

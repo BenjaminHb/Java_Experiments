@@ -2,10 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9566402-2c01-4b2a-a84b-f8cf7cb98422" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验九/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验九/src/Exercise9_10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验九/src/Exercise9_12.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十/src/DelayThread_Runnable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十/src/Exercise10_9.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十/src/Exercise10_9_Runnable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十/src/MyThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十一/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十一/src/Divide.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../实验十一/src/GenerateCatchException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../第三周1/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../第三周2/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../第四周1/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../第四周2/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实验八/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../第四周2/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/out/production/实验五/Exercise4_16.class" afterPath="$PROJECT_DIR$/../实验五/out/production/实验五/Exercise4_16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/out/production/实验五/Exercise4_17$LengthType.class" afterPath="$PROJECT_DIR$/../实验五/out/production/实验五/Exercise4_17$LengthType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/out/production/实验五/Exercise4_17.class" afterPath="$PROJECT_DIR$/../实验五/out/production/实验五/Exercise4_17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/实验八/ExitConfirm.class" afterPath="$PROJECT_DIR$/out/production/实验八/ExitConfirm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验六/out/production/实验六/FormatDateOutput.class" afterPath="$PROJECT_DIR$/../实验六/out/production/实验六/FormatDateOutput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验六/out/production/实验六/Search.class" afterPath="$PROJECT_DIR$/../实验六/out/production/实验六/Search.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第三周2/out/production/第三周2/GreekAlphabet.class" afterPath="$PROJECT_DIR$/../第三周2/out/production/第三周2/GreekAlphabet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_12.class" afterPath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_18.class" afterPath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_19.class" afterPath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_20.class" afterPath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_9.class" afterPath="$PROJECT_DIR$/../第四周1/out/production/第四周1/Exercise2_9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验七/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../实验七/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验九/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../实验九/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验九/src/Exercise9_10.java" afterPath="$PROJECT_DIR$/../实验九/src/Exercise9_10.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验九/src/Exercise9_12.java" afterPath="$PROJECT_DIR$/../实验九/src/Exercise9_12.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../实验五/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../实验五/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/src/Exercise4_15/Exercise4_15.java" afterPath="$PROJECT_DIR$/../实验五/src/Exercise4_15/Exercise4_15.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/src/Exercise4_16.java" afterPath="$PROJECT_DIR$/../实验五/src/Exercise4_16.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/src/Exercise4_17.java" afterPath="$PROJECT_DIR$/../实验五/src/Exercise4_17.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/src/Exercise4_18/Exercise4_18.java" afterPath="$PROJECT_DIR$/../实验五/src/Exercise4_18/Exercise4_18.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/src/SchoolInfo/Class.java" afterPath="$PROJECT_DIR$/../实验五/src/SchoolInfo/Class.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/src/SchoolInfo/Student.java" afterPath="$PROJECT_DIR$/../实验五/src/SchoolInfo/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验五/src/SchoolInfo/Test.java" afterPath="$PROJECT_DIR$/../实验五/src/SchoolInfo/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExitConfirm.java" afterPath="$PROJECT_DIR$/src/ExitConfirm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NotePad2.java" afterPath="$PROJECT_DIR$/src/NotePad2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验六/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../实验六/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验六/src/FormatDateOutput.java" afterPath="$PROJECT_DIR$/../实验六/src/FormatDateOutput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验六/src/RandomIntOutputMonth.java" afterPath="$PROJECT_DIR$/../实验六/src/RandomIntOutputMonth.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验六/src/Search.java" afterPath="$PROJECT_DIR$/../实验六/src/Search.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../实验六/src/Sort.java" afterPath="$PROJECT_DIR$/../实验六/src/Sort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第三周1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../第三周1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第三周2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../第三周2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第三周2/src/GreekAlphabet.java" afterPath="$PROJECT_DIR$/../第三周2/src/GreekAlphabet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../第四周1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/src/Exercise2_12.java" afterPath="$PROJECT_DIR$/../第四周1/src/Exercise2_12.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/src/Exercise2_15.java" afterPath="$PROJECT_DIR$/../第四周1/src/Exercise2_15.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/src/Exercise2_18.java" afterPath="$PROJECT_DIR$/../第四周1/src/Exercise2_18.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/src/Exercise2_19.java" afterPath="$PROJECT_DIR$/../第四周1/src/Exercise2_19.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/src/Exercise2_20.java" afterPath="$PROJECT_DIR$/../第四周1/src/Exercise2_20.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周1/src/Exercise2_9.java" afterPath="$PROJECT_DIR$/../第四周1/src/Exercise2_9.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../第四周2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../第四周2/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,31 +87,34 @@
       <file leaf-file-name="NotePad2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NotePad2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="64" column="45" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+            <state relative-caret-position="165">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#newMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
-                <element signature="method#openMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
-                <element signature="method#exitMenuItem_actionPerformed#0;class#NotePad2#0" expanded="false" />
-                <element signature="method#saveMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
-                <element signature="method#saveAsMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExitConfirm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExitConfirm.java">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="75">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#3215#3835#0" expanded="true" />
+                <element signature="e#3834#3835#0" expanded="true" />
+                <element signature="e#3874#4494#0" expanded="true" />
+                <element signature="e#4493#4494#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Calculator.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -102,15 +159,15 @@
         <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/Calculator.form" />
         <option value="$PROJECT_DIR$/src/ExitConfirm.form" />
-        <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/Test.jfd" />
         <option value="$PROJECT_DIR$/src/NotePad.form" />
         <option value="$PROJECT_DIR$/src/NotePad1.java" />
         <option value="$PROJECT_DIR$/src/NotePad1.jfd" />
-        <option value="$PROJECT_DIR$/src/ExitConfirm.java" />
         <option value="$PROJECT_DIR$/src/NotePad.java" />
         <option value="$PROJECT_DIR$/src/Demo.java" />
+        <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/NotePad2.java" />
+        <option value="$PROJECT_DIR$/src/ExitConfirm.java" />
       </list>
     </option>
   </component>
@@ -168,6 +225,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="实验八" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="实验八" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calculator" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -178,8 +253,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -596,36 +671,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="NotePad" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NotePad" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="实验八" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExitConfirm" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ExitConfirm" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="实验八" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="NotePad2" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NotePad2" />
@@ -641,27 +686,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Demo" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Demo" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="实验八" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="5">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Calculator" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NotePad" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExitConfirm" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NotePad2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Demo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NotePad2" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -684,11 +711,14 @@
       <workItem from="1495251179097" duration="8520000" />
       <workItem from="1495284037374" duration="126000" />
       <workItem from="1495296856082" duration="124000" />
+      <workItem from="1497000464752" duration="233000" />
+      <workItem from="1497338430221" duration="2145000" />
+      <workItem from="1497537042222" duration="1942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27922000" />
+    <option name="totallyTimeSpent" value="32242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,7 +730,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -710,17 +740,17 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.502442" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2026862" sideWeight="0.5492662" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21245421" sideWeight="0.5324948" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2026862" sideWeight="0.45073375" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21245421" sideWeight="0.46750525" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -789,44 +819,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/NotePad.java" />
-    <entry file="file://$PROJECT_DIR$/src/NotePad.form" />
-    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="133" column="32" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExitConfirm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExitConfirm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotePad.java" />
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/NotePad.form" />
     <entry file="file://$PROJECT_DIR$/src/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
           <caret line="133" column="32" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,9 +833,7 @@
         <state relative-caret-position="210">
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,9 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
           <caret line="133" column="32" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,26 +857,12 @@
         <state relative-caret-position="210">
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExitConfirm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/实验八/Calculator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -915,16 +894,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NotePad.form" />
-    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NotePad1.java" />
     <entry file="file://$PROJECT_DIR$/src/NotePad1.jfd" />
     <entry file="file://$PROJECT_DIR$/.idea/libraries/Beans_Binding.xml" />
@@ -932,19 +901,8 @@
     <entry file="file://$PROJECT_DIR$/src/Test.form" />
     <entry file="file://$PROJECT_DIR$/.project" />
     <entry file="file://$PROJECT_DIR$/.classpath" />
-    <entry file="file://$PROJECT_DIR$/src/ExitConfirm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/实验八/ExitConfirm.form" />
-    <entry file="file://$PROJECT_DIR$/out/production/实验八/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/实验八/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/NotePad.java" />
     <entry file="file://$PROJECT_DIR$/out/production/实验八/NotePad.class" />
     <entry file="file://$PROJECT_DIR$/out/production/实验八/ExitConfirm.class">
@@ -1004,29 +962,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/实验八/com/intellij/uiDesigner/core/AbstractLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/实验八/com/intellij/uiDesigner/core/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#4477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/实验八/aboutMenuItem_actionAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#485#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/实验八/copyMenuItem_actionAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/实验八/Calculator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#1031#1360#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#2844#3119#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExitConfirm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ExitConfirm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#3215#3835#0" expanded="true" />
+            <element signature="e#3834#3835#0" expanded="true" />
+            <element signature="e#3874#4494#0" expanded="true" />
+            <element signature="e#4493#4494#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NotePad2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="64" column="45" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#newMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
-            <element signature="method#openMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
-            <element signature="method#exitMenuItem_actionPerformed#0;class#NotePad2#0" expanded="false" />
-            <element signature="method#saveMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
-            <element signature="method#saveAsMenuItemActionPerformed#0;class#NotePad2#0" expanded="false" />
           </folding>
         </state>
       </provider>

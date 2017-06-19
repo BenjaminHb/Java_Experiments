@@ -30,7 +30,7 @@ public class Exercise2_9 {
                 }
             }
         }
-        System.out.println("输入的整数中最大的为 "+num[inputNum-1]+" ，最小为 "+num[0]+" 。\n经过排序后，由小到大的序列为");
+        System.out.println("\n输入的整数中最大的为 "+num[inputNum-1]+" ，最小为 "+num[0]+" 。\n经过排序后，由小到大的序列为");
         for (int i=0;i<inputNum;i++){       //输出结果
             System.out.print(num[i]+" ");
         }

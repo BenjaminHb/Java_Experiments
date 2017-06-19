@@ -20,8 +20,8 @@ public class RandomIntOutputMonth {
         month[9] = "October";
         month[10] = "November";
         month[11] = "December";
-        for (int i=0; i < 12; i++) {
-            int ran = random.nextInt(12) + 1;
+        for (int i = 0; i < 12; i++) {
+            int ran = random.nextInt(12) + 1;       //随机生成1-12之间的整数
             System.out.println("Generate random integer is " + ran + ".\tMonth is " + month[ran - 1]);
         }
     }

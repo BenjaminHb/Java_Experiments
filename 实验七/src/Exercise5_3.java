@@ -3,7 +3,7 @@
  * Copyright © benjaminzhang 2017.
  */
 
-class Student {
+class Student {     //定义学生类，子类继承学生类
     protected void study() {
         System.out.println("I'm studying.");
     }

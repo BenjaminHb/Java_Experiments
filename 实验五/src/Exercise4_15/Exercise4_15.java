@@ -25,19 +25,19 @@ public class Exercise4_15 {
             addressInfoNum++;
             System.out.println("Proceed to input address info? (Yes: 1, No: 0)");
             inputStatus = input.nextInt();
-            while (inputStatus!=1&&inputStatus!=0){
+            while (inputStatus!=1&&inputStatus!=0){     //输入错误，重新输入
                 System.out.println("Input ERROR!");
                 System.out.println("Proceed to input address info? (Yes: 1, No: 0)");
                 inputStatus = input.nextInt();
             }
-            input.nextLine();
+            input.nextLine();       //消除多余的\n
         }while (inputStatus == 1);
     }
 
     private void getaddrInfo(){
         System.out.println("Address informations:");
         for (int i = 0; i < addressInfoNum; i++)
-            addr[i].getAddressInfo();
+            addr[i].getAddressInfo();       //获得地址簿中存储的信息
     }
 
     public static void main(String[] args) {

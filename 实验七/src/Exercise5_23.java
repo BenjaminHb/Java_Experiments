@@ -12,7 +12,7 @@ interface OneToN {
 class Sum implements OneToN {
     public void disp(int n) {
         int temp = 0;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i <= n; i++)
             temp += i;
         System.out.println("Sum.disp: " + temp);
     }

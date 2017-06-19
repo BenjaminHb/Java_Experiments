@@ -2,8 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -18,11 +16,11 @@ class NotePad2 extends JFrame {
     private final JMenuBar menuBar = new JMenuBar();
     private final JEditorPane content = new JEditorPane();
     private final JScrollPane scroll = new JScrollPane(content);
-    private final JFileChooser filechooser = new JFileChooser();
+    private final JFileChooser fileChooser = new JFileChooser();
     private final BorderLayout bord = new BorderLayout();
     private final JPanel pane = new JPanel();
     private File file = null;
-    protected String clipboard;
+    private String clipboard;
 
     // 定义文件菜单
     private final JMenu fileMenu = new JMenu();
@@ -30,8 +28,6 @@ class NotePad2 extends JFrame {
     private final JMenuItem openMenuItem = new JMenuItem();
     private final JMenuItem saveMenuItem = new JMenuItem();
     private final JMenuItem saveAsMenuItem = new JMenuItem();
-    private final JMenuItem pageSetupMenuItem = new JMenuItem();
-    private final JMenuItem printMenuItem = new JMenuItem();
     private final JMenuItem exitMenuItem = new JMenuItem();
     // 定义编辑菜单
     private final JMenu editMenu = new JMenu();
@@ -116,6 +112,22 @@ class NotePad2 extends JFrame {
         setContentPane(pane);
     }
 
+    //定义保存菜单项方法
+    public void showSaveDialog(){
+        int returnVal = fileChooser.showSaveDialog(this);
+        if (returnVal == JFileChooser.APPROVE_OPTION) {
+            file = fileChooser.getSelectedFile();
+            try {
+                FileWriter fw = new FileWriter(file);
+                fw.write(content.getText());
+                setTitle(fileChooser.getSelectedFile().getName() + " - NotePad");
+                fw.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     // 定义新建菜单项方法
     public void newMenuItemActionPerformed(ActionEvent evt) {
         file = null;
@@ -126,19 +138,8 @@ class NotePad2 extends JFrame {
                     null, options, options[0]);
             switch (s) {
                 case 0:
-                    int returnVal = filechooser.showSaveDialog(this);
-                    if (returnVal == JFileChooser.APPROVE_OPTION) {
-                        file = filechooser.getSelectedFile();
-                        try {
-                            FileWriter fw = new FileWriter(file);
-                            fw.write(content.getText());
-                            setTitle(filechooser.getSelectedFile().getName() + " - NotePad");
-                            fw.close();
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                        break;
-                    }
+                    showSaveDialog();
+                    break;
                 case 1:
                     content.setText("");
                     setTitle("Untitled - NotePad");
@@ -150,9 +151,9 @@ class NotePad2 extends JFrame {
     public void openMenuItemActionPerformed(ActionEvent evt) {
         try {
             file = null;
-            int returnVal = filechooser.showOpenDialog(this);
+            int returnVal = fileChooser.showOpenDialog(this);
             if (returnVal == JFileChooser.APPROVE_OPTION) {
-                file = filechooser.getSelectedFile();
+                file = fileChooser.getSelectedFile();
                 FileReader fr = new FileReader(file);
                 int len = (int) file.length();
                 char[] buffer = new char[len];
@@ -174,19 +175,8 @@ class NotePad2 extends JFrame {
                     null, options, options[0]);
             switch (s) {
                 case 0:
-                    int returnVal = filechooser.showSaveDialog(this);
-                    if (returnVal == JFileChooser.APPROVE_OPTION) {
-                        file = filechooser.getSelectedFile();
-                        try {
-                            FileWriter fw = new FileWriter(file);
-                            fw.write(content.getText());
-                            setTitle(filechooser.getSelectedFile().getName() + " - NotePad");
-                            fw.close();
-                        } catch (Exception ex) {
-                            ex.printStackTrace();
-                        }
-                        break;
-                    }
+                    showSaveDialog();
+                    break;
                 case 1:
                     System.exit(0);
             }
@@ -197,44 +187,18 @@ class NotePad2 extends JFrame {
 
     // 保存事件
     public void saveMenuItemActionPerformed(ActionEvent evt) {
-        int returnVal = filechooser.showSaveDialog(this);
-        if (returnVal == JFileChooser.APPROVE_OPTION) {
-            file = filechooser.getSelectedFile();
-
-            try {
-                FileWriter fw = new FileWriter(file);
-                fw.write(content.getText());
-                setTitle(filechooser.getSelectedFile().getName() + " - NotePad");
-                fw.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+        showSaveDialog();
     }
 
     // 另存为事件
     public void saveAsMenuItemActionPerformed(ActionEvent evt) {
-        filechooser.setDialogTitle("Save As...");
-        int returnVal = filechooser.showSaveDialog(this);
-        if (returnVal == JFileChooser.APPROVE_OPTION) {
-            file = filechooser.getSelectedFile();
-            try {
-                FileWriter fw = new FileWriter(file);
-                fw.write(content.getText());
-                setTitle(filechooser.getSelectedFile().getName() + " - NotePad");
-                fw.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-        }
-
+        fileChooser.setDialogTitle("Save As...");
+        showSaveDialog();
     }
 
     // 剪贴事件
     public void cutMenuItemActionPerformed(ActionEvent evt) {
-        String tempText = content.getSelectedText();
-        clipboard = tempText;
+        clipboard = content.getSelectedText();
         int start = content.getSelectionStart();
         int end = content.getSelectionEnd();
         content.replaceSelection("");
@@ -242,8 +206,7 @@ class NotePad2 extends JFrame {
 
     // 复制事件
     public void copyMenuItemActionPerformed(ActionEvent evt) {
-        String tempText = content.getSelectedText();
-        clipboard = tempText;
+        clipboard = content.getSelectedText();
     }
 
     // 粘贴事件

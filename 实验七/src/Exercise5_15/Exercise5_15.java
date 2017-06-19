@@ -7,14 +7,14 @@ import java.util.Scanner;
  * Copyright © benjaminzhang 2017.
  */
 
-abstract class Shape {
+abstract class Shape {      //定义一个抽象类
     double area;
 
-    abstract void computeArea();
+    abstract void computeArea();         //子类定义此方法
 
     void display() {
         System.out.println("Area is " + area);
-    }
+    }        //子类覆盖此方法
 }
 
 class Triangle extends Shape {

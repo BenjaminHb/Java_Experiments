@@ -7,14 +7,14 @@ import java.util.Scanner;
  * Copyright © benjaminzhang 2017.
  */
 
-abstract class Shape {
+abstract class Shape {      //定义一个抽象类
     double area, perimeter;
 
-    abstract void computeArea();
+    abstract void computeArea();        //子类定义此方法
 
-    abstract void computePerimeter();
+    abstract void computePerimeter();       //子类定义此方法
 
-    void display() {
+    void display() {        //子类覆盖此方法
         System.out.println("Area is " + area);
         System.out.println("Perimeter is " + perimeter);
     }
@@ -126,26 +126,20 @@ class Circle extends Shape {
 
 public class Exercise5_22 {
     public static void main(String[] args) {
+        Shape[] shape = new Shape[4];
         Scanner input = new Scanner(System.in);
         System.out.println("Please input triangle's a and h:");
-        Triangle tri = new Triangle(input.nextDouble(), input.nextDouble());
+        shape[0] = new Triangle(input.nextDouble(), input.nextDouble());
         System.out.println("Please input right triangle's a and b:");
-        RightTriangle rigTri = new RightTriangle(input.nextDouble(), input.nextDouble());
+        shape[1] = new RightTriangle(input.nextDouble(), input.nextDouble());
         System.out.println("Please input square's a:");
-        Square squ = new Square(input.nextDouble());
+        shape[2] = new Square(input.nextDouble());
         System.out.println("Please input circle's radius:");
-        Circle cir = new Circle(input.nextDouble());
-        tri.computeArea();
-        rigTri.computeArea();
-        squ.computeArea();
-        cir.computeArea();
-        tri.computePerimeter();
-        rigTri.computePerimeter();
-        squ.computePerimeter();
-        cir.computePerimeter();
-        tri.display();
-        rigTri.display();
-        squ.display();
-        cir.display();
+        shape[3] = new Circle(input.nextDouble());
+        for (int i = 0; i < 4; i++) {
+            shape[i].computeArea();;
+            shape[i].computePerimeter();;
+            shape[i].display();
+        }
     }
 }

@@ -6,9 +6,9 @@ import java.util.Scanner;
  * Copyright © benjaminzhang 2017.
  */
 public class Search {
-    private int binSearch(int searchInt, int n, int[] array){
-        int low = 0, high = n -1 ,mid;
-        while (low <= high){
+    private int binSearch(int searchInt, int n, int[] array) {      //折半查找
+        int low = 0, high = n - 1, mid;
+        while (low <= high) {
             mid = (low + high) / 2;
             if (array[mid] == searchInt)
                 return mid + 1;
@@ -22,17 +22,17 @@ public class Search {
 
     public static void main(String[] args) {
         Random random = new Random();
-        int[] intarray = new  int[25];
+        int[] intarray = new int[25];
         int inputInt, searchStatus, temp;
         Scanner input = new Scanner(System.in);
         System.out.println("Generate random integer array:");
         for (int i = 0; i < 25; i++) {
-            intarray[i] = random.nextInt(100);
-            System.out.print(intarray[i]+"\t");
+            intarray[i] = random.nextInt(100);      //随机生成数字
+            System.out.print(intarray[i] + "\t");
             if ((i + 1) % 5 == 0)
                 System.out.println("");
         }
-        for (int i = 24; i > 0; i--)
+        for (int i = 24; i > 0; i--)        //冒泡排序
             for (int j = 0; j < i; j++) {
                 if (intarray[j] > intarray[j + 1]) {
                     temp = intarray[j];
@@ -42,7 +42,7 @@ public class Search {
             }
         System.out.println("\nAfter sort:");
         for (int i = 0; i < 25; i++) {
-            System.out.print(intarray[i]+"\t");
+            System.out.print(intarray[i] + "\t");
             if ((i + 1) % 5 == 0)
                 System.out.println("");
         }
@@ -54,7 +54,7 @@ public class Search {
             System.out.println("Seach " + inputInt + " in integer array FAILED!");
             System.out.println("ERROR: integer NOT FOUND!");
             System.exit(-1);
-        }else {
+        } else {
             System.out.println("Seach " + inputInt + " in integer array SUCCESSED!");
             System.out.println(inputInt + ":" + searchStatus);
         }
